@@ -134,7 +134,7 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
 }
 
@@ -144,7 +144,8 @@ img {
 @media screen and (max-width: 480px){
 
 .container {
-    width: 480px;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .row {
@@ -177,5 +178,14 @@ img {
 }
 
 /* il mistero che si nasconde sopra i 768px fino ai 1160px... */
+
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+
+    .container{
+        width: 100%;
+    }
+    
+}
 
 
