@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -129,10 +130,47 @@ img {
  ************************************************/
 
 
- /* dispositivo: tablet dai 768px in giù */
+/* dispositivo: tablet dai 768px in giù */
 
- @media screen and (min-width: 768px) {
-    .container{
+@media screen and (max-width: 768px) {
+    .container {
         width: 768px;
     }
- }
+}
+
+
+/* dispositivo: mobile dai 480px in giù */
+
+/* @media screen and (max-width: 480px){ */
+
+.container {
+    width: 480px;
+}
+
+.row {
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.text {
+    text-align: center;
+    vertical-align: center;
+}
+
+.col {
+    width: 100%;
+}
+
+.lessons .col {
+    width: 100%;
+}
+
+.steps .col {
+    width: 100%;
+}
+
+
+.why-us .col {
+    width: 100%;
+}
