@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /* dispositivo: tablet dai 768px in giù */
+
+ @media screen and (min-width: 768px) {
+    .container{
+        width: 768px;
+    }
+ }
