@@ -141,7 +141,7 @@ img {
 
 /* dispositivo: mobile dai 480px in giù */
 
-/* @media screen and (max-width: 480px){ */
+@media screen and (max-width: 480px){
 
 .container {
     width: 480px;
@@ -174,3 +174,8 @@ img {
 .why-us .col {
     width: 100%;
 }
+}
+
+/* il mistero che si nasconde sopra i 768px fino ai 1160px... */
+
+
