@@ -135,8 +135,16 @@ img {
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
+        padding: 0 40px;
     }
+
+    .site-header{
+        margin-top: 5em;
+    }
+
 }
+
+
 
 
 /* dispositivo: mobile dai 480px in giù */
@@ -145,7 +153,15 @@ img {
 
 .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 42px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.3em;
 }
 
 .row {
@@ -175,7 +191,22 @@ img {
 .why-us .col {
     width: 100%;
 }
+
+.why-us{
+    background-color: #222222;
+    padding-top: 6em;
+    margin-bottom: 0;
+    padding-bottom: 3em;
 }
+
+.steps {
+    margin-bottom: 0;
+}
+
+}
+
+
+
 
 /* il mistero che si nasconde sopra i 768px fino ai 1160px... */
 
@@ -184,6 +215,7 @@ img {
 
     .container{
         width: 100%;
+        padding: 0 30px;
     }
     
 }
